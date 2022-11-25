@@ -1,11 +1,10 @@
-import {Component} from "@angular/core";
+import { Component, Input } from '@angular/core'
 
 @Component({
-  selector: 'app-test1',
-  templateUrl : './test1.component.html',
-  styleUrls: ['./test1.component.scss']
+  selector: 'inst-test1',
+  templateUrl: './test1.component.html',
+  styleUrls: ['./test1.component.scss'],
 })
-
 export class Test1Component {
-
+  @Input() counter = 1
 }
